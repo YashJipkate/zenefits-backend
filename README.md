@@ -3,6 +3,7 @@ The backend for the Zenefits portal built in Express.js. The salient features of
 
  - CORS enabled
  - Usage of dotenv to manage server secrets.
+ - 'A' quality code certified by codacy.
 
 ## Development server
 
