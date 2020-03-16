@@ -20,7 +20,7 @@ app.get('/people', (req, res) => {
     .catch((error) => {
         res.send(error);
     });
-})
+});
 
 app.get('/departments', (req, res) => {
     apiHelper.makeApiCall('https://api.zenefits.com/core/departments', req.query.starting_after)

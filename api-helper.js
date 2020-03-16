@@ -1,7 +1,7 @@
 const request = require('request');
 
 module.exports = {
-    makeApiCall : function(url, startingAfter) {
+    makeApiCall = (url, startingAfter) => {
         const queryString = ((startingAfter==='null' || typeof startingAfter==='undefined') ? '' : '?startingAfter=' + startingAfter);
         return new Promise((resolve, reject) => {
             request({
