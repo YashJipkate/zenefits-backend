@@ -1,4 +1,7 @@
 # Zenefits Backend
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/10c294dd728a47be8f1bdeecad5171ce)](https://app.codacy.com/manual/YashJipkate/zenefits-backend?utm_source=github.com&utm_medium=referral&utm_content=YashJipkate/zenefits-backend&utm_campaign=Badge_Grade_Dashboard)
+
 The backend for the Zenefits portal built in Express.js. The salient features of this app are:
 
 - CORS enabled
